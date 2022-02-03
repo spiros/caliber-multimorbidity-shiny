@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="{{ site.locale }}">
+    {% include shinyhead.html %}
+  <body onload="resizer()">
+    {% include header.html %}
+
+    <div class="wrapper">
+
+    {{ content }}
+
+    </div>
+
+    <!-- Shiny app integration made possible using code from the Centre for the Mathematical Modelling of Infectious Diseases at the London School of Hygiene & Tropical Medicine without which I would have never, ever, managed to do this in such a short timeframe. Many thanks, guys! https://cmmid.github.io/ -->
+
+    <iframe frameborder="0" src="{{ page.shinyio }}"></iframe>
+
+	{% include footer.html %}
+  </body>
+</html>
+
+
+
+

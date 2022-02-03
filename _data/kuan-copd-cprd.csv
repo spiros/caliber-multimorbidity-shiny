@@ -1,0 +1,56 @@
+Readcode,Medcode,ReadcodeDescr
+14B3.12,103494,History of chronic obstructive pulmonary disease
+H310000,15626,Chronic catarrhal bronchitis
+H310.00,25603,Simple chronic bronchitis
+H310z00,61118,Simple chronic bronchitis NOS
+H311000,40159,Purulent chronic bronchitis
+H311100,37959,Fetid chronic bronchitis
+H311.00,11150,Mucopurulent chronic bronchitis
+H311z00,61513,Mucopurulent chronic bronchitis NOS
+H312000,5798,Chronic asthmatic bronchitis
+H312011,5909,Chronic wheezy bronchitis
+H312100,14798,Emphysematous bronchitis
+H312200,1446,Acute exacerbation of chronic obstructive airways disease
+H312300,26125,Bronchiolitis obliterans
+H312.00,27819,Obstructive chronic bronchitis
+H312z00,44525,Obstructive chronic bronchitis NOS
+H313.00,24248,Mixed simple and mucopurulent chronic bronchitis
+H31..00,3243,Chronic bronchitis
+H31y100,45089,Chronic tracheobronchitis
+H31y.00,66043,Other chronic bronchitis
+H31yz00,68066,Other chronic bronchitis NOS
+H31z.00,15157,Chronic bronchitis NOS
+H320000,56860,Segmental bullous emphysema
+H320100,68662,Zonal bullous emphysema
+H320200,60188,Giant bullous emphysema
+H320300,99536,Bullous emphysema with collapse
+H320.00,26306,Chronic bullous emphysema
+H320z00,23492,Chronic bullous emphysema NOS
+H321.00,46578,Panlobular emphysema
+H322.00,10980,Centrilobular emphysema
+H32..00,794,Emphysema
+H32y000,92955,Acute vesicular emphysema
+H32y100,70787,Atrophic (senile) emphysema
+H32y111,59263,Acute interstitial emphysema
+H32y200,63479,MacLeod's unilateral emphysema
+H32y.00,40788,Other emphysema
+H32yz00,16410,Other emphysema NOS
+H32z.00,33450,Emphysema NOS
+H36..00,10863,Mild chronic obstructive pulmonary disease
+H37..00,10802,Moderate chronic obstructive pulmonary disease
+H38..00,9876,Severe chronic obstructive pulmonary disease
+H39..00,93568,Very severe chronic obstructive pulmonary disease
+H3A..00,104608,End stage chronic obstructive airways disease
+H3...00,1001,Chronic obstructive pulmonary disease
+H3...11,998,Chronic obstructive airways disease
+H3y0.00,21061,Chronic obstruct pulmonary dis with acute lower resp infectn
+H3y1.00,7884,"Chron obstruct pulmonary dis wth acute exacerbation, unspec"
+H3y..00,12166,Other specified chronic obstructive airways disease
+H3y..11,67040,Other specified chronic obstructive pulmonary disease
+H3z..00,5710,Chronic obstructive airways disease NOS
+H3z..11,37247,Chronic obstructive pulmonary disease NOS
+H464000,64721,Chronic emphysema due to chemical fumes
+H464100,63216,Obliterative bronchiolitis due to chemical fumes
+H583200,106650,Eosinophilic bronchitis
+Hyu3000,66058,[X]Other emphysema
+Hyu3100,65733,[X]Other specified chronic obstructive pulmonary disease

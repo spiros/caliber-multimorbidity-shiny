@@ -1,0 +1,59 @@
+---
+layout: post
+---
+<h3 id="metadata">Metadata</h3>
+<table>
+    <tr>
+        <td><strong>Name</strong></td>
+        <td>{{ page.name }}</td>
+    </tr>
+    <tr>
+        <td><strong>Type</strong></td>
+        <td>{{ page.type }}</td>
+    </tr>
+    <tr>
+        <td><strong>Group</strong></td>
+        <td>{{ page.group }}</td>
+    </tr>
+    <tr>
+        <td><strong>Data Sources</strong></td>
+        <td>{{ page.data_sources }}</td>
+    </tr>
+    <tr>
+        <td><strong>Clinical Terminologies</strong></td>
+        <td>{{ page.clinical_terminologies }}</td>
+    </tr>
+
+    <tr>
+        <td><strong>Validation</strong></td>
+        <td>{{ page.validation }}</td>
+    </tr>
+    <tr>
+        <td><strong>Valid Event Data Range</strong></td>
+        <td>{{ page.valid_event_data_range }}</td>
+    </tr>
+    <tr>
+        <td><strong>Sex</strong></td>
+        <td>{{ page.sex }}</td>
+    </tr>
+    <tr>
+        <td><strong>Authors</strong></td>
+        <td>{{ page.author }}</td>
+    </tr>
+    {%- assign date_format = site.minima.date_format | default: "%-d %b %Y" -%}
+    <tr>
+        <td><strong>Agreement Date</strong></td>
+        <td>{{ page.date | date: date_format }}</td>
+    </tr>
+    <tr>
+        <td><strong>Modified Date</strong></td>
+        <td>{{ page.modified_date | date: date_format }}</td>
+    </tr>
+    <tr>
+        <td><strong>Version</strong></td>
+        <td>{{ page.version }}</td>
+    </tr>
+    </tbody>
+</table>
+<hr>
+{{ content }}
