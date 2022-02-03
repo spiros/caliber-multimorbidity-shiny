@@ -23,6 +23,8 @@ We have presented two perspectives of multimorbidity and comorbidity for a wide 
 
 #### Interactive tools
 
+We have created a series of interactive R Shiny apps to explore the underlying data and our findings. Information on the defined populations be downloaded from [here](/assets/Table_linkfiles.xlsx)
+
 <div class="row">
     <div class="col-md-6">
         Multimorbidity networks of conditions that occur together more frequently than expected by chance can be explored <a href="https://pasea.shinyapps.io/kuan_multimorbid_networks">here</a>
@@ -50,4 +52,4 @@ We have presented two perspectives of multimorbidity and comorbidity for a wide 
     </div>
 </div>
 
-Information on the populations defined can be downloaded from [here](/assets/Table_linkfiles.xlsx)
+
