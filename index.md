@@ -27,5 +27,4 @@ Comorbidity networks of non-random associations can be interrogated for index co
 
 The most common comorbidities for an index condition can be viewed [here](https://pasea.shinyapps.io/kuan_comorbid_byfreq/)
 
-
-
+Information on the populations defined can be downloaded from [here](/assets/Table_linkfiles.xlsx)
