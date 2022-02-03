@@ -21,11 +21,11 @@ We have presented two perspectives of multimorbidity and comorbidity for a wide 
 
 #### Interactive tools
 
-Multimorbidity networks of conditions that occur together more frequently than expected by chance can be explored [here](whole_disease_network.md)
+Multimorbidity networks of conditions that occur together more frequently than expected by chance can be explored [here](https://pasea.shinyapps.io/kuan_multimorbid_networks/)
 
-Comorbidity networks of non-random associations can be interrogated for index conditions can be viewed [here](comorbidity_network.md)
+Comorbidity networks of non-random associations can be interrogated for index conditions can be viewed [here](https://pasea.shinyapps.io/kuan_comorbid_networks/)
 
-The most common comorbidities for an index condition can be viewed [here](comorbidity_frequency.md)
+The most common comorbidities for an index condition can be viewed [here](https://pasea.shinyapps.io/kuan_comorbid_byfreq/)
 
 
 
