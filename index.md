@@ -3,6 +3,7 @@ layout: home
 title: Multimorbidity and comorbidity networks from 4 million patients in the National Health Service
 ---
 
+
 #### Background
 Multimorbidity is a growing health challenge but there are limited data on common disease clusters, especially in ethnic minorities and younger people. We aimed to explore multimorbidity and comorbidity for all ages in a multi-ethnic population from two perspectives: non-random disease associations that could indicate shared risk factors or pathophysiology; and frequently occurring disease combinations that could inform recruitment of clinical trials, and hence direct clinical guidelines and management of the vast numbers of patients with multimorbidity.
 
@@ -19,12 +20,34 @@ Depression commonly co-occurred with anxiety, migraine, obesity, atopic conditio
 #### Interpretation
 We have presented two perspectives of multimorbidity and comorbidity for a wide range of diseases stratified by ethnicity, sex, and age. Our online tools provide a resource for patients and their clinicians (to prevent, detect and treat comorbid conditions); research funders and policymakers (to redesign service provision, training priorities and guideline development); and biomedical researchers and manufacturers of medicines (to provide leads for research into common or sequential pathways of disease and inform the design of clinical trials). 
 
+
 #### Interactive tools
 
-Multimorbidity networks of conditions that occur together more frequently than expected by chance can be explored [here](https://pasea.shinyapps.io/kuan_multimorbid_networks/)
+<div class="row">
+    <div class="col-md-6">
+        Multimorbidity networks of conditions that occur together more frequently than expected by chance can be explored <a href="https://pasea.shinyapps.io/kuan_multimorbid_networks">here</a>
+    </div>
+    <div class="col-md-6">
+        <img src="/assets/img/whole_disease.png"/>
+    </div>
+</div>
 
-Comorbidity networks of non-random associations can be interrogated for index conditions can be viewed [here](https://pasea.shinyapps.io/kuan_comorbid_networks/)
+<div class="row">
+    <div class="col-md-6">
+        Comorbidity networks of non-random associations can be interrogated for index conditions can be viewed <a href="https://pasea.shinyapps.io/kuan_comorbid_networks/">here</a>
+    </div>
+    <div class="col-md-6">
+        <img src="/assets/img/comorb_network.png"/>
+    </div>
+</div>
 
-The most common comorbidities for an index condition can be viewed [here](https://pasea.shinyapps.io/kuan_comorbid_byfreq/)
+<div class="row">
+    <div class="col-md-6">
+        The most common comorbidities for an index condition can be viewed <a href="https://pasea.shinyapps.io/kuan_comorbid_byfreq/">here</a>
+    </div>
+    <div class="col-md-6">
+        <img src="/assets/img/most_common.png"/>
+    </div>
+</div>
 
 Information on the populations defined can be downloaded from [here](/assets/Table_linkfiles.xlsx)
