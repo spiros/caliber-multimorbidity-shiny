@@ -30,7 +30,7 @@ We have created a series of interactive R Shiny apps to explore the underlying d
        The <b><a href="/MFA">Multimorbidity Frequency App (MFA)</a></b> tabulates the most common disease triads. 
     </div>
     <div class="col-md-6">
-        <img src="/assets/img/most_common.png"/>
+        <img src="/assets/img/mfa.png"/>
     </div>
 </div>
 
