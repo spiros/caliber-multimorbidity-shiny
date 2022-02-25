@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Multimorbidity and comorbidity networks from 4 million patients in the National Health Service
+title: Identifying and visualising multimorbidity and comorbidity patterns in 4 million patients in the National Health Service
 ---
 
 
