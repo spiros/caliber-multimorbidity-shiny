@@ -55,7 +55,7 @@ We have created a series of interactive R Shiny apps to explore the underlying d
 
 #### Phenotyping algorithms
 
-Human-friendly versions of disease EHR phenoypes can be browsed on the <a href="https://phenotypes.healthdatagateway.org/">HDR UK Phenotypes Library</a>.
+Human-friendly versions of disease EHR phenotypes can be browsed on the <a href="https://phenotypes.healthdatagateway.org/">HDR UK Phenotypes Library</a>.
 
 Machine readable versions of the EHR phenotyping algorithms are available in our <a href="https://github.com/spiros/chronological-map-phenotypes">repository</a>. 
 
