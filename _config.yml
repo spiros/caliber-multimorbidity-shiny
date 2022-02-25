@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Estimate your risk of becoming overweight or obese
+title: Identifying and visualising multimorbidity and comorbidity patterns in 4 million patients in the National Health Service
 email: s.denaxas@ucl.ac.uk
-description: Estimate your risk of becoming overweight or obese
+description: Identifying and visualising multimorbidity and comorbidity patterns in 4 million patients in the National Health Service
 baseurl: "/"
-url: "http://bmi.caliberresearch.org/"
+url: "http://multimorbidity.caliberresearch.org/"
 
 google_analytics: UA-32217823-5
 
