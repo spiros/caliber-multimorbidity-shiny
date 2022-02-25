@@ -41,9 +41,3 @@ whitelist:
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
-
-collections:
-  phenotypes:
-    sort_by: name
-    output: true
-    permalink: /phenotypes/:name
