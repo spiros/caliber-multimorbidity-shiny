@@ -27,7 +27,26 @@ We have created a series of interactive R Shiny apps to explore the underlying d
 
 <div class="row">
     <div class="col-md-6">
-        Multimorbidity networks of conditions that occur together more frequently than expected by chance can be explored <a href="https://pasea.shinyapps.io/kuan_multimorbid_networks">here</a>
+       The <b><a href="/MFA">Multimorbidity Frequency App (MFA)</a></b> tabulates the most common disease triads. 
+    </div>
+    <div class="col-md-6">
+        <img src="/assets/img/most_common.png"/>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        The <b><a href="/CFA">Comorbidity Frequency App (CFA)</a></b> plots and tabulates the most common comorbidities for an index condition.      
+    </div>
+    <div class="col-md-6">
+        <img src="/assets/img/most_common.png"/>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-6">
+        The <b><a href="/MNA">Multimorbidity Network App (MNA)</a></b> plots non-random associations for 308 health conditions.
     </div>
     <div class="col-md-6">
         <img src="/assets/img/whole_disease.png"/>
@@ -36,21 +55,16 @@ We have created a series of interactive R Shiny apps to explore the underlying d
 
 <div class="row">
     <div class="col-md-6">
-        Comorbidity networks of non-random associations can be interrogated for index conditions can be viewed <a href="https://pasea.shinyapps.io/kuan_comorbid_networks/">here</a>
+        The <b><a href="/CNA">Comorbidity Network App (CNA)</a></b> plots non-random associations for an index condition.        
     </div>
     <div class="col-md-6">
         <img src="/assets/img/comorb_network.png"/>
     </div>
 </div>
 
-<div class="row">
-    <div class="col-md-6">
-        The most common comorbidities for an index condition can be viewed <a href="https://pasea.shinyapps.io/kuan_comorbid_byfreq/">here</a>
-    </div>
-    <div class="col-md-6">
-        <img src="/assets/img/most_common.png"/>
-    </div>
-</div>
+
+
+
 
 
 #### Phenotyping algorithms
