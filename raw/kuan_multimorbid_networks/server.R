@@ -290,6 +290,23 @@ plot(dz.net(),  vertex.label.color="black", vertex.label.cex=1.1, vertex.label.d
  } , height=input$height, width = input$width)
 })
 
+ observe({
+output$dataTable <- DT::renderDT({
+    datatable((dz.node()%>% select(Label,Disease,Category) %>% arrange(Category,Disease)),rownames=F)  %>% 
+
+    formatStyle("Category", target="row",
+backgroundColor = styleEqual(c("Benign Neoplasm/CIN","Diseases of the genitourinary system","Perinatal conditions","Diseases of the Digestive System","Diseases of the Circulatory System","Diseases of the Ear","Diseases of the Endocrine System","Diseases of the Eye","Haematological/Immunological conditions","Cancers","Infectious Diseases","Musculoskeletal conditions","Neurological conditions","Diseases of the Respiratory System","Mental Health Disorders","Skin conditions"), 
+c("#AB82FF", "#838B8B" ,"#0000FF" ,"#CAE1FF", "#00008B" ,"#00FFFF", "#53868B","#6495ED", "#7FFF00",   "#006400",  "#FFF68F","#FFB90F", "#FFEFDB" , "#FF7F00", "#8B2500", "#FF4040")), 
+
+color=styleEqual(c("Benign Neoplasm/CIN","Diseases of the genitourinary system","Perinatal conditions","Diseases of the Digestive System","Diseases of the Circulatory System","Diseases of the Ear","Diseases of the Endocrine System","Diseases of the Eye","Haematological/Immunological conditions","Cancers","Infectious Diseases","Musculoskeletal conditions","Neurological conditions","Diseases of the Respiratory System","Mental Health Disorders","Skin conditions"), 
+c("black", "black" ,"white" ,"black", "white" ,"black", "black","black", "black",   "white",  "black","black", "black" , "black", "white", "black")), 
+
+fontWeight = 'bold') # data
+
+})
+})
+
+
 }
 
 
