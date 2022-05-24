@@ -284,11 +284,11 @@ graph_from_data_frame(d=dz.link(), vertices=dz.node(), directed=F)
   })
 
 
-layo<-reactive({
-set.seed(123)
-if(input$layout == "layout_as_star") { layout_as_star(dz.net()) }
-else if(input$layout == "layout_with_fr") { layout_with_fr(dz.net()) }
-})
+#layo<-reactive({
+#set.seed(123)
+#if(input$layout == "layout_as_star") { layout_as_star(dz.net()) }
+#else if(input$layout == "layout_with_fr") { layout_with_fr(dz.net()) }
+#})
 
 
 
@@ -297,7 +297,7 @@ output$netplot <- renderPlot({
 
   validate( need(dz.node()!= "", "Sorry, there are no comorbidities for your requested criteria. Please change your input selections."))
 
-plot(dz.net(),  vertex.label.color="black", vertex.label.cex=1.1, vertex.size=(V(dz.net())$prev.rate)^.3, vertex.label.dist=(V(dz.net())$prev.rate)^.005, vertex.label.degree=pi/2, vertex.color=V(dz.net())$Colour, edge.width=(E(dz.net())$partialcor)*20, edge.color="light grey", rescale=T, layout=layo())
+plot(dz.net(),  vertex.label.color="black", vertex.label.cex=1.1, vertex.size=(V(dz.net())$prev.rate)^.3, vertex.label.dist=(V(dz.net())$prev.rate)^.005, vertex.label.degree=pi/2, vertex.color=V(dz.net())$Colour, edge.width=(E(dz.net())$partialcor)*20, edge.color="light grey", rescale=T, layout=layout_as_star(dz.net()))
 
   } , height=input$height, width = input$width)
 
