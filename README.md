@@ -9,7 +9,7 @@ This repository contains the source code for the following interactive R Shiny a
 *  The <b><a href="https://multimorbidity.caliberresearch.org/MNA">Multimorbidity Network App (MNA)</a></b> plots non-random associations for 308 health conditions.
 * The <b><a href="https://multimorbidity.caliberresearch.org/CNA">Comorbidity Network App (CNA)</a></b> plots non-random associations for an index condition.        
 
-Human-friendly versions of disease EHR phenotype can be browsed on the <a href="https://phenotypes.healthdatagateway.org/">HDR UK Phenotypes Library</a>.
+Human-friendly versions of disease EHR phenotype can be browsed on the <a href="https://phenotypes.healthdatagateway.org/">HDR UK Phenotype Library</a>.
 
 Machine readable versions of the EHR phenotyping algorithms are available in our <a href="https://github.com/spiros/chronological-map-phenotypes">repository</a>. 
 
